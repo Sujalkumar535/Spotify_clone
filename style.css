@@ -21,6 +21,7 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 .musicplayer{
     background-color: black;
@@ -127,6 +128,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 .navicons img {
     margin-left: 0.75rem;
@@ -149,4 +151,75 @@ h2{
     display: flex;
     margin-left: 1rem;
     font-size: 1.5rem;
+}
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardimg{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.cardtitle{
+    font-weight: 600;
+}
+.cardinfo{
+    opacity: 0.5;
+    font-size: 0.75rem;
+}
+.footer
+{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    height: 30%;
+    width: 90%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+.musicplayer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album{
+    width: 25%;
+}
+.player{
+    width: 50%;
+}
+.controls{
+    width: 25%;
+}
+.playercontrolicon{
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+.playercontrol{
+   display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.playercontrolicon:hover{
+    opacity: 1;
+}
+.playbackbar{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.progressbar{
+    width: 70%;
 }
